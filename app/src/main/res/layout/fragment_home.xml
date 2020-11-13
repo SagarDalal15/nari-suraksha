@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBE9F4"
+    tools:context=".ui.home.HomeFragment">
+
+
+
+    <Switch
+        android:theme="@style/SwitchTheme"
+        android:thumb="@drawable/switch_thumb_selector"
+        android:id="@+id/security_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:text="Security ON/OFF "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/WhatsAppButton"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="75dp"
+        android:background="@drawable/whatsapp_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/smsButton" />
+
+    <ImageButton
+        android:id="@+id/callButton"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="40dp"
+
+        android:background="@drawable/call_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/smsButton" />
+
+    <ImageButton
+        android:id="@+id/smsButton"
+        android:layout_width="165dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/round_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/security_on_off" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="10dp"
+        android:text="Call"
+        android:textAlignment="center"
+        android:textColor="#FB4E61"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/callButton" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="59dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="78dp"
+        android:text="Share on Whatsapp"
+        android:textAlignment="center"
+        android:textColor="#FB4E61"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WhatsAppButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

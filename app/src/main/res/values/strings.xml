@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Nari Suraksha</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nari Suraksha</string>
+    <string name="nav_header_subtitle">Version: 1.0</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Nari Suraksha</string>
+
+    <string name="menu_settings">Settings</string>
+
+
+
+
+    <string name="title_section2">SETTINGS</string>
+    <string name="title_section3">FEEDBACK</string>
+
+    <string name="sendMessage">Send Your Alert Message</string>
+
+
+
+    <string name="action_example">Example action</string>
+
+
+    <string name="pref_title_primary_contact">Primary Contact</string>
+    <string name="pref_title_primary_contact_email">Primary Email</string>
+
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings">GPS Settings</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="title_location_permission">Turn ON location</string>
+    <string name="text_location_permission">To continue, turn on device location to improve security measures. For details, go to the location settings</string>
+    <string name="ok">Ok</string>
+
+
+</resources>

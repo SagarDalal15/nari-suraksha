@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android = "http://schemas.android.com/apk/res/android" tools:ignore="MissingDefaultResource">
+    <item android:state_pressed = "false" android:drawable="@drawable/button_off">
+        <shape android:shape = "oval">
+           <!-- <gradient
+                android:angle="90"
+                android:endColor="#555994"
+                android:centerColor="#b5b6d2"
+                android:type="linear"
+                android:startColor="#555994"
+                 />
+            <solid android:color = "#ce2029"/>-->
+        </shape>
+    </item>
+    <item android:state_pressed = "true" android:drawable="@drawable/button_on">
+        <shape android:shape = "oval">
+
+           <!-- <gradient
+                android:angle="90"
+                android:endColor="#555994"
+                android:centerColor="#b5b6d2"
+
+                android:startColor="#555994"
+                android:type="linear"
+                />
+            <solid android:color = "#B11C24"/>-->
+        </shape>
+    </item>
+</selector>
