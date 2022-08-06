@@ -15,4 +15,4 @@ Settings Screen
 <br/></p>
 
 **If you are a developer and you wish to contribute to the app please fork the project and submit a pull request.
-This project is founded and actively maintained by Sagar Dalal. For any sort of queries feel free to mail at 12ssd.34@gmail.com.**
+This project is founded and actively maintained by Sagar Dalal. For any sort of queries feel free to mail at sagardalal112@gmail.com.**
